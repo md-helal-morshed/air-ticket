@@ -128,12 +128,12 @@
             bookNow.addEventListener('click', function () {
 
                 var txt;
-                if (confirm("Press a button!")) {
-                    txt = "You pressed OK!";
+                if (confirm("press OK to confirm your flight")) {
+                    txt = "Your flight has been confirmed";
                 } else {
-                    txt = "You pressed Cancel!";
+                    txt = "flight is not confirm yet.please start again";
                 }
-                document.getElementById("demo").innerHTML = txt;
+                document.getElementById("booking-form").innerHTML = txt;
 
             })
             //charge or VAT
